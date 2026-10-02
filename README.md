@@ -1,10 +1,11 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>For You, Micah 🤍</title>
+    <title>For Micah 🤍</title>
 
     <style>
         * {
@@ -120,55 +121,17 @@
 
         .letter-title {
             text-align: center;
-            font-size: 30px;
+            font-size: 22px;
             font-weight: bold;
             color: #a84d68;
+            line-height: 1.6;
             margin-bottom: 25px;
-        }
-
-        /* PHOTO */
-
-        .photo-container {
-            text-align: center;
-            margin: 25px 0 30px;
-        }
-
-        .photo-container img {
-            width: 100%;
-            max-width: 450px;
-            height: auto;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(80, 35, 50, 0.18);
-        }
-
-        /* LETTER */
-
-        .letter-content {
-            font-size: 16px;
-            line-height: 1.9;
-            color: #4a3038;
-        }
-
-        .letter-content p {
-            margin-bottom: 22px;
-        }
-
-        .greeting {
-            font-weight: bold;
-        }
-
-        .signature {
-            margin-top: 35px;
-            text-align: right;
-            font-style: italic;
-            color: #9b526b;
-            font-size: 17px;
         }
 
         /* MUSIC */
 
         .music-box {
-            margin-top: 35px;
+            margin-bottom: 30px;
             padding: 20px;
             background: #fff0f4;
             border-radius: 18px;
@@ -199,6 +162,41 @@
             background: #9f4965;
         }
 
+        /* PHOTO */
+
+        .photo-container {
+            text-align: center;
+            margin: 25px 0 30px;
+        }
+
+        .photo-container img {
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(80, 35, 50, 0.18);
+        }
+
+        /* LETTER */
+
+        .letter-content {
+            font-size: 16px;
+            line-height: 1.9;
+            color: #4a3038;
+        }
+
+        .letter-content p {
+            margin-bottom: 22px;
+        }
+
+        .signature {
+            margin-top: 35px;
+            text-align: right;
+            font-style: italic;
+            color: #9b526b;
+            font-size: 17px;
+        }
+
         .footer {
             text-align: center;
             margin-top: 30px;
@@ -223,7 +221,7 @@
             }
 
             .letter-title {
-                font-size: 26px;
+                font-size: 20px;
             }
 
             .letter-content {
@@ -252,7 +250,7 @@
 
                 <div class="clue">
                     <strong>Clue:</strong><br>
-                    "the day i gave u a cake"<br>
+                    the day i gave u a cake<br>
                     <small>(mm/dd/yr)</small>
                 </div>
 
@@ -290,10 +288,35 @@
 
             <div class="letter-card">
 
+
+                <!-- MUSIC AT THE TOP -->
+
+                <div class="music-box">
+
+                    <h3>🎵 A little something to listen to</h3>
+
+                    <p>
+                        Play this while reading the letter. 🤍
+                    </p>
+
+                    <a
+                        class="music-button"
+                        href="https://open.spotify.com/search/Paalala%20Twosday"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        🎧 Play "Paalala" by Twosday
+                    </a>
+
+                </div>
+
+
+                <!-- LETTER TITLE -->
+
                 <div class="letter-title">
-                    To my fave hooman, my all time fave iragebait,
-                        my taga salo ng random thoughts ko,
-                        and shempre my engr. micah jezra, 🤍
+                    To my fave hooman, my all time fave i-ragebait,
+                    my taga-salo ng random thoughts ko,
+                    and shempre my engr. micah jezra,
                 </div>
 
 
@@ -312,12 +335,6 @@
                 <!-- LETTER -->
 
                 <div class="letter-content">
-
-                    <p class="greeting">
-                        To my fave hooman, my all time fave iragebait,
-                        my taga salo ng random thoughts ko,
-                        and shempre my engr. micah jezra,
-                    </p>
 
                     <p>
                         im not good with words but look oh i wrote something
@@ -344,28 +361,6 @@
 
                 <div class="signature">
                     Always rooting for you. 🤍
-                </div>
-
-
-                <!-- MUSIC -->
-
-                <div class="music-box">
-
-                    <h3>🎵 A little something to listen to</h3>
-
-                    <p>
-                        Play this while reading the letter. 🤍
-                    </p>
-
-                    <a
-                        class="music-button"
-                        href="https://open.spotify.com/search/Paalala%20Twosday"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        🎧 Play "Paalala" by Twosday
-                    </a>
-
                 </div>
 
 
@@ -432,3 +427,4 @@
 
 </body>
 </html>
+```
