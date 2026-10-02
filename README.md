@@ -187,7 +187,7 @@
     <div class="letter-box" id="letterScreen">
 
         <div class="letter-title">
-            To my fave hooman, my all-time fave ragebait, my taga-salo ng random thoughts ko, and shempre, my Engr. Micah Jezra, 🤍
+            To my fave hooman, my all-time fave i-ragebait, my taga-salo ng random thoughts ko, and shempre, my Engr. Micah Jezra, 🤍
         </div>
 
         <div class="music">
@@ -229,13 +229,17 @@
                 We may not get the result that we wanted, but please
                 know na u did great. U did ur best, so don't be too
                 hard on yourself.
+            </p
+           
+            <p>
+               As long as nahinga pa ako, you'll always have someone who's proud of you.
             </p>
 
         </div>
 
 
         <div class="signature">
-            Al long as nahinga pa ako, you'll always have someone who's proud of you. 🤍
+            bogs 🤍
         </div>
 
     </div>
