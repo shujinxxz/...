@@ -1,11 +1,10 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>For Micah 🤍</title>
+    <title>A Little Something For You 💌</title>
 
     <style>
         * {
@@ -14,178 +13,100 @@
 
         body {
             margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(135deg, #fff5f7, #ffe8ee);
-            color: #4a3038;
             min-height: 100vh;
+            font-family: Georgia, "Times New Roman", serif;
+            background: linear-gradient(135deg, #fff7f9, #f8dfe7, #e8b8c8);
+            color: #4b3039;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
         }
 
         .container {
             width: 100%;
-            max-width: 700px;
-            margin: 0 auto;
-            padding: 30px 20px 50px;
+            max-width: 720px;
         }
 
-        /* PASSWORD SCREEN */
-
-        .password-screen {
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+        .password-box,
+        .letter-box {
+            background: rgba(255,255,255,0.96);
+            border-radius: 25px;
+            padding: 40px 30px;
+            box-shadow: 0 15px 45px rgba(80,35,50,0.18);
         }
 
         .password-box {
-            width: 100%;
-            max-width: 450px;
-            background: rgba(255, 255, 255, 0.95);
-            padding: 40px 30px;
-            border-radius: 25px;
-            box-shadow: 0 15px 40px rgba(80, 35, 50, 0.15);
+            text-align: center;
         }
 
-        .password-box h1 {
-            margin-top: 0;
+        .heart {
+            font-size: 45px;
+        }
+
+        h1 {
             font-size: 30px;
-            color: #a84d68;
         }
 
-        .password-box p {
-            line-height: 1.7;
-            font-size: 15px;
+        .subtitle {
+            color: #80606a;
+            margin-bottom: 30px;
         }
 
         .clue {
-            margin-top: 20px;
-            padding: 15px;
-            background: #fff0f4;
+            background: #fff1f5;
             border-radius: 15px;
-            font-size: 14px;
-            color: #7a4b59;
+            padding: 18px;
+            margin: 20px 0;
         }
 
-        .password-input {
+        input {
             width: 100%;
-            padding: 14px;
-            margin-top: 20px;
-            border: 1px solid #e5b8c5;
-            border-radius: 12px;
-            font-size: 16px;
+            max-width: 320px;
+            padding: 14px 18px;
+            border: 2px solid #e4b5c3;
+            border-radius: 30px;
+            font-size: 17px;
             text-align: center;
             outline: none;
         }
 
-        .password-input:focus {
-            border-color: #c66b87;
-        }
-
-        .unlock-button {
-            width: 100%;
-            padding: 14px;
+        button {
             margin-top: 15px;
+            padding: 13px 28px;
             border: none;
-            border-radius: 12px;
-            background: #b85c78;
+            border-radius: 30px;
+            background: #a95773;
             color: white;
             font-size: 16px;
             cursor: pointer;
-            transition: 0.3s;
         }
 
-        .unlock-button:hover {
-            background: #9f4965;
+        button:hover {
+            background: #91445f;
         }
 
-        .error {
-            color: #c0395c;
-            margin-top: 15px;
-            display: none;
-            font-size: 14px;
-        }
-
-        /* LETTER SCREEN */
-
-        .letter-screen {
+        #error {
+            color: #b33b56;
             display: none;
         }
 
-        .letter-card {
-            background: rgba(255, 255, 255, 0.96);
-            padding: 35px 30px;
-            border-radius: 25px;
-            box-shadow: 0 15px 40px rgba(80, 35, 50, 0.15);
+        .letter-box {
+            display: none;
         }
 
         .letter-title {
             text-align: center;
-            font-size: 22px;
-            font-weight: bold;
-            color: #a84d68;
-            line-height: 1.6;
-            margin-bottom: 25px;
-        }
-
-        /* MUSIC */
-
-        .music-box {
+            font-size: 30px;
             margin-bottom: 30px;
-            padding: 20px;
-            background: #fff0f4;
-            border-radius: 18px;
-            text-align: center;
         }
 
-        .music-box h3 {
-            margin-top: 0;
-            color: #a84d68;
-        }
-
-        .music-box p {
-            font-size: 14px;
-            margin-bottom: 15px;
-        }
-
-        .music-button {
-            display: inline-block;
-            padding: 12px 20px;
-            background: #b85c78;
-            color: white;
-            text-decoration: none;
-            border-radius: 12px;
-            transition: 0.3s;
-        }
-
-        .music-button:hover {
-            background: #9f4965;
-        }
-
-        /* PHOTO */
-
-        .photo-container {
-            text-align: center;
-            margin: 25px 0 30px;
-        }
-
-        .photo-container img {
-            width: 100%;
-            max-width: 450px;
-            height: auto;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(80, 35, 50, 0.18);
-        }
-
-        /* LETTER */
-
-        .letter-content {
-            font-size: 16px;
+        .letter {
+            font-size: 18px;
             line-height: 1.9;
-            color: #4a3038;
         }
 
-        .letter-content p {
+        .letter p {
             margin-bottom: 22px;
         }
 
@@ -193,238 +114,179 @@
             margin-top: 35px;
             text-align: right;
             font-style: italic;
-            color: #9b526b;
-            font-size: 17px;
         }
 
-        .footer {
+        .music {
+            margin: 30px 0;
+            padding: 18px;
+            background: #fff1f5;
+            border-radius: 18px;
             text-align: center;
-            margin-top: 30px;
-            font-size: 13px;
-            color: #9a7882;
         }
 
-        /* MOBILE */
+        .music a {
+            display: inline-block;
+            text-decoration: none;
+            background: #a95773;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+        }
 
-        @media (max-width: 600px) {
-
-            .container {
-                padding: 20px 15px 40px;
-            }
-
-            .password-box {
-                padding: 30px 20px;
-            }
-
-            .letter-card {
-                padding: 25px 20px;
-            }
-
-            .letter-title {
-                font-size: 20px;
-            }
-
-            .letter-content {
-                font-size: 15px;
-            }
+        .small {
+            font-size: 12px;
+            color: #94717b;
+            margin-top: 10px;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- PASSWORD SCREEN -->
+<div class="container">
 
-    <div class="password-screen" id="passwordScreen">
+    <!-- PASSWORD PAGE -->
 
-        <div class="container">
+    <div class="password-box" id="passwordScreen">
 
-            <div class="password-box">
+        <div class="heart">💌</div>
 
-                <h1>For You, Micah 🤍</h1>
+        <h1>A Little Something For You</h1>
 
-                <p>
-                    There's something here that I wanted you to read.
-                    But first... you need to know the password. 👀
-                </p>
+        <p class="subtitle">
+            Some words are meant for only one person.
+        </p>
 
-                <div class="clue">
-                    <strong>Clue:</strong><br>
-                    the day i gave u a cake<br>
-                    <small>(mm/dd/yr)</small>
-                </div>
-
-                <input
-                    type="password"
-                    id="passwordInput"
-                    class="password-input"
-                    placeholder="Enter password"
-                    onkeypress="checkEnter(event)"
-                >
-
-                <button
-                    class="unlock-button"
-                    onclick="unlockLetter()"
-                >
-                    Open the letter 💌
-                </button>
-
-                <div class="error" id="errorMessage">
-                    Hmm... that's not the password. Try again. 🤭
-                </div>
-
-            </div>
-
+        <div class="clue">
+            🔐 <strong>Clue</strong><br><br>
+            the day I gave u a cake<br>
+            <em>(mm/dd/yr)</em>
         </div>
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter password"
+        >
+
+        <br>
+
+        <button onclick="unlockLetter()">
+            OPEN MY LETTER ♡
+        </button>
+
+        <p id="error">
+            Hmm... that's not it. Try again. 💭
+        </p>
 
     </div>
 
 
-    <!-- LETTER SCREEN -->
+    <!-- LETTER PAGE -->
 
-    <div class="letter-screen" id="letterScreen">
+    <div class="letter-box" id="letterScreen">
 
-        <div class="container">
+        <div class="letter-title">
+            For You, Micah 🤍
+        </div>
 
-            <div class="letter-card">
+        <div class="music">
 
+            <strong>🎵 Paalala — Twosday</strong>
 
-                <!-- MUSIC AT THE TOP -->
+            <br><br>
 
-                <div class="music-box">
+            <a
+                href="https://open.spotify.com/search/Paalala%20Twosday"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                🎧 Play the song
+            </a>
 
-                    <h3>🎵 A little something to listen to</h3>
-
-                    <p>
-                        Play this while reading the letter. 🤍
-                    </p>
-
-                    <a
-                        class="music-button"
-                        href="https://open.spotify.com/search/Paalala%20Twosday"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        🎧 Play "Paalala" by Twosday
-                    </a>
-
-                </div>
-
-
-                <!-- LETTER TITLE -->
-
-                <div class="letter-title">
-                    To my fave hooman, my all time fave i-ragebait,
-                    my taga-salo ng random thoughts ko,
-                    and shempre my engr. micah jezra,
-                </div>
-
-
-                <!-- PHOTO -->
-
-                <div class="photo-container">
-
-                    <img
-                        src="micah-photo.jpg"
-                        alt="A special photo"
-                    >
-
-                </div>
-
-
-                <!-- LETTER -->
-
-                <div class="letter-content">
-
-                    <p>
-                        im not good with words but look oh i wrote something
-                        for u kasi ikaw na baga yan hahahaha
-                    </p>
-
-                    <p>
-                        well kidding aside i wrote this to let u know how
-                        proud am i to u for showing up for taking that test
-                        despite everything u've been through the efforts,
-                        sacrifices, ur silent cries.
-                    </p>
-
-                    <p>
-                        we may not get the result that we wanted but please
-                        know na u did great u did ur best so dont be to hard
-                        on yourself.
-                    </p>
-
-                </div>
-
-
-                <!-- SIGNATURE -->
-
-                <div class="signature">
-                    Always rooting for you. 🤍
-                </div>
-
-
-                <div class="footer">
-                    Made with a little bit of courage and a lot of thought. 🤍
-                </div>
-
+            <div class="small">
+                Play the song, then come back to read the letter. ♡
             </div>
 
         </div>
 
+
+        <div class="letter">
+
+            <p>
+                To my fave hooman, my all-time fave ragebait,
+                my taga-salo ng random thoughts ko, and siyempre,
+                my Engr. Micah Jezra,
+            </p>
+
+            <p>
+                I'm not good with words, but look, I wrote something
+                for u kasi ikaw na baga yan HAHAHAHA.
+            </p>
+
+            <p>
+                Well, kidding aside, I wrote this to let u know how
+                proud I am of u for showing up, for taking that test
+                despite everything you've been through, the efforts,
+                sacrifices, and ur silent cries.
+            </p>
+
+            <p>
+                We may not get the result that we wanted, but please
+                know na u did great. U did ur best, so don't be too
+                hard on yourself.
+            </p>
+
+        </div>
+
+
+        <div class="signature">
+            Always rooting for you. 🤍
+        </div>
+
     </div>
 
-
-    <!-- JAVASCRIPT -->
-
-    <script>
-
-        function unlockLetter() {
-
-            const password =
-                document.getElementById("passwordInput").value;
-
-            const correctPassword = "072326";
-
-            const passwordScreen =
-                document.getElementById("passwordScreen");
-
-            const letterScreen =
-                document.getElementById("letterScreen");
-
-            const errorMessage =
-                document.getElementById("errorMessage");
+</div>
 
 
-            if (password === correctPassword) {
+<script>
 
-                passwordScreen.style.display = "none";
+    const correctPassword = "072326";
 
-                letterScreen.style.display = "block";
+    function unlockLetter() {
 
-                window.scrollTo(0, 0);
+        const enteredPassword =
+            document.getElementById("password").value;
 
-            } else {
+        const passwordScreen =
+            document.getElementById("passwordScreen");
 
-                errorMessage.style.display = "block";
+        const letterScreen =
+            document.getElementById("letterScreen");
 
-            }
+        const error =
+            document.getElementById("error");
 
-        }
+        if (enteredPassword === correctPassword) {
 
+            passwordScreen.style.display = "none";
+            letterScreen.style.display = "block";
 
-        function checkEnter(event) {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
 
-            if (event.key === "Enter") {
+        } else {
 
-                unlockLetter();
+            error.style.display = "block";
 
-            }
+            document.getElementById("password").value = "";
 
         }
+    }
 
-    </script>
+</script>
 
 </body>
 </html>
-```
