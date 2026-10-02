@@ -205,7 +205,7 @@
             </a>
 
             <div class="small">
-                Play the song, then come back to read the letter. ♡
+                Play the song para damang-dama tas balik ka na lang here hahahaha. ♡
             </div>
 
         </div>
@@ -229,15 +229,10 @@
                 We may not get the result that we wanted, but please
                 know na u did great. U did ur best, so don't be too
                 hard on yourself.
-            </p
            
             <p>
                As long as nahinga pa ako, you'll always have someone who's proud of you.
-            </p>
-
-        </div>
-
-
+        
         <div class="signature">
             bogs 🤍
         </div>
