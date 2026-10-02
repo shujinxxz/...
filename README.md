@@ -187,7 +187,7 @@
     <div class="letter-box" id="letterScreen">
 
         <div class="letter-title">
-            For You, Micah 🤍
+            To my fave hooman, my all-time fave ragebait, my taga-salo ng random thoughts ko, and shempre, my Engr. Micah Jezra, 🤍
         </div>
 
         <div class="music">
@@ -214,12 +214,6 @@
         <div class="letter">
 
             <p>
-                To my fave hooman, my all-time fave ragebait,
-                my taga-salo ng random thoughts ko, and siyempre,
-                my Engr. Micah Jezra,
-            </p>
-
-            <p>
                 I'm not good with words, but look, I wrote something
                 for u kasi ikaw na baga yan HAHAHAHA.
             </p>
@@ -241,7 +235,7 @@
 
 
         <div class="signature">
-            Always rooting for you. 🤍
+            Al long as nahinga pa ako, you'll always have someone who's proud of you. 🤍
         </div>
 
     </div>
