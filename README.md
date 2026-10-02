@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>A Little Something For You 💌</title>
+    <title> since u scan the qr code, tuloy mo na 'to :)</title>
 
     <style>
         * {
