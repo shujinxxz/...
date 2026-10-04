@@ -263,7 +263,7 @@
         .music-player {
             text-align: center;
             margin-bottom: 25px;
-            padding: 18px;
+            padding: 20px;
             border-radius: 18px;
             background: rgba(255, 255, 255, 0.04);
             border: 1px solid rgba(255, 255, 255, 0.1);
@@ -292,6 +292,13 @@
             margin-top: 10px;
         }
 
+        .music-note {
+            margin-top: 12px;
+            color: #777;
+            font-size: 0.85rem;
+            font-style: italic;
+        }
+
         /* =========================
            LETTER
         ========================= */
@@ -312,6 +319,19 @@
 
         .letter-card p:first-child {
             margin-bottom: 30px;
+        }
+
+        /* =========================
+           SIGNATURE
+        ========================= */
+
+        .signature {
+            margin-top: 35px;
+            margin-bottom: 0 !important;
+            font-family: "Brush Script MT", "Segoe Script", cursive;
+            font-size: 1.6rem !important;
+            font-style: italic;
+            text-align: right;
         }
 
         /* =========================
@@ -381,6 +401,15 @@
                 width: 100%;
                 padding: 13px 15px;
             }
+
+            .music-note {
+                font-size: 0.8rem;
+            }
+
+            .signature {
+                font-size: 1.4rem !important;
+                margin-top: 30px;
+            }
         }
     </style>
 </head>
@@ -388,6 +417,7 @@
 <body>
 
     <!-- FLOATING HEARTS -->
+
     <div class="heart">🖤</div>
     <div class="heart">♡</div>
     <div class="heart">🖤</div>
@@ -494,6 +524,10 @@
                     Paalala by twosday 🖤
                 </span>
 
+                <p class="music-note">
+                    play the song para damang-dama 🖤
+                </p>
+
             </div>
 
 
@@ -547,6 +581,10 @@
 
                 <p>
                     P.P.S. I missed ur sinigang.
+                </p>
+
+                <p class="signature">
+                    bogs :)
                 </p>
 
             </div>
