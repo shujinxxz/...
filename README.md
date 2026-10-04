@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>For My Fave Hooman 🖤</title>
+    <title>uy engineer yohoo!</title>
 
     <style>
         * {
@@ -91,7 +90,7 @@
             margin: auto;
         }
 
-        /* OPENING */
+        /* OPENING SCREEN */
 
         #openingScreen {
             min-height: 100vh;
@@ -139,10 +138,12 @@
             color: black;
             font-size: 16px;
             font-weight: bold;
+            transition: 0.3s;
         }
 
         .main-button:hover {
             transform: scale(1.03);
+            background: #f1f1f1;
         }
 
         /* PASSWORD */
@@ -205,6 +206,8 @@
             padding: 30px 0 60px;
         }
 
+        /* SPOTIFY BUTTON */
+
         .music-player {
             position: sticky;
             top: 15px;
@@ -221,18 +224,29 @@
             border-radius: 50px;
         }
 
-        .music-player button {
-            padding: 9px 18px;
+        .spotify-button {
+            display: inline-block;
+            padding: 10px 20px;
             border-radius: 30px;
             background: white;
             color: black;
+            text-decoration: none;
             font-weight: bold;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        .spotify-button:hover {
+            transform: scale(1.03);
+            background: #f1f1f1;
         }
 
         #musicStatus {
             font-size: 14px;
             color: #aaa;
         }
+
+        /* LETTER CARD */
 
         .letter-card {
             background: rgba(15, 15, 15, 0.97);
@@ -286,6 +300,7 @@
         /* MOBILE */
 
         @media (max-width: 600px) {
+
             .card {
                 padding: 35px 20px;
             }
@@ -297,6 +312,10 @@
             .letter {
                 font-size: 16px;
                 line-height: 1.8;
+            }
+
+            .music-player {
+                border-radius: 25px;
             }
         }
     </style>
@@ -400,19 +419,21 @@
 
         <section id="letterSection">
 
-            <!-- MUSIC -->
+            <!-- SPOTIFY -->
 
             <div class="music-player">
 
-                <button
-                    id="musicButton"
-                    onclick="toggleMusic()"
+                <a
+                    class="spotify-button"
+                    href="https://open.spotify.com/search/Paalala%20twosday"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
-                    ▶ Play Paalala
-                </button>
+                    🎵 Open Paalala on Spotify
+                </a>
 
                 <span id="musicStatus">
-                    Paalala by twosday 🎵
+                    Paalala by twosday 🖤
                 </span>
 
             </div>
@@ -489,22 +510,6 @@
     </div>
 
 
-    <!-- ========================= -->
-    <!-- MUSIC FILE -->
-    <!-- ========================= -->
-
-    <audio
-        id="backgroundMusic"
-        loop
-        preload="auto"
-    >
-        <source
-            src="paalala.mp3"
-            type="audio/mpeg"
-        >
-    </audio>
-
-
     <script>
 
         /* PASSWORD */
@@ -512,13 +517,15 @@
         const correctPassword = "072326";
 
 
-        /* SHOW PASSWORD SCREEN */
+        /* SHOW PASSWORD */
 
         function showPassword() {
 
             document.getElementById("openingScreen").style.display = "none";
 
             document.getElementById("passwordScreen").style.display = "flex";
+
+            document.getElementById("passwordInput").focus();
 
         }
 
@@ -552,7 +559,8 @@
 
                 document.getElementById("letterSection").style.display = "block";
 
-                document.getElementById("letterSection").scrollIntoView({
+                window.scrollTo({
+                    top: 0,
                     behavior: "smooth"
                 });
 
@@ -563,54 +571,6 @@
                 input.value = "";
 
                 input.focus();
-
-            }
-
-        }
-
-
-        /* MUSIC */
-
-        const music =
-            document.getElementById("backgroundMusic");
-
-        const musicButton =
-            document.getElementById("musicButton");
-
-        const musicStatus =
-            document.getElementById("musicStatus");
-
-
-        function toggleMusic() {
-
-            if (music.paused) {
-
-                music.play()
-                    .then(function() {
-
-                        musicButton.textContent =
-                            "⏸ Pause Paalala";
-
-                        musicStatus.textContent =
-                            "Now playing: Paalala by twosday 🎵";
-
-                    })
-                    .catch(function() {
-
-                        musicStatus.textContent =
-                            "Make sure paalala.mp3 is in the same folder.";
-
-                    });
-
-            } else {
-
-                music.pause();
-
-                musicButton.textContent =
-                    "▶ Play Paalala";
-
-                musicStatus.textContent =
-                    "Music paused";
 
             }
 
