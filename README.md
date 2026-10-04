@@ -490,7 +490,7 @@
             </button>
 
             <p id="errorMessage">
-                Nope. Try again, boi. 😂
+                saro pa boi
             </p>
 
         </div>
