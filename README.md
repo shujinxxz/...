@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -328,8 +329,8 @@
         .signature {
             margin-top: 35px;
             margin-bottom: 0 !important;
-            font-family: "Brush Script MT", "Segoe Script", cursive;
-            font-size: 1.6rem !important;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 1rem !important;
             font-style: italic;
             text-align: right;
         }
@@ -407,8 +408,7 @@
             }
 
             .signature {
-                font-size: 1.4rem !important;
-                margin-top: 30px;
+                font-size: 0.95rem !important;
             }
         }
     </style>
