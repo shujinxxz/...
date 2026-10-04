@@ -571,7 +571,7 @@
                 </p>
 
                 <p>
-                    Basta, as long as nahinga pa ako, I always got ur back, bruh (sana pautangin mo pa rin me pag pumaldo ka na sa bohai). Pahuway na muna, RGE 2027 TOPNOTCHERS na ites. Love u, pinsan ko (sending u virtual hugs and kisses). See u soonest!
+                    Basta, as long as nahinga pa ako, I always got ur back, bruh (don't hesitate to message me kahit saan, and sana pautangin mo pa rin me pag pumaldo ka na sa bohai hshshshshs). Pahuway na muna, RGE 2027 TOPNOTCHERS na ites. Love u, pinsan ko (sending u virtual hugs and kisses). See u soonest!
                 </p>
 
                 <p>
