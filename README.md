@@ -447,7 +447,7 @@
                 class="main-button"
                 onclick="showPassword()"
             >
-                Open this for me 🖤
+                palag na boi
             </button>
 
         </div>
@@ -464,11 +464,11 @@
         <div class="password-card fade">
 
             <h1>
-                🔐 A little secret...
+                papansin may password pa 'no?
             </h1>
 
             <p>
-                Before you read this, you need to know the password. 🖤
+                i know u know what i mean
             </p>
 
             <p class="clue">
@@ -486,7 +486,7 @@
                 class="main-button"
                 onclick="checkPassword()"
             >
-                Unlock 🖤
+                Unlock 
             </button>
 
             <p id="errorMessage">
@@ -524,7 +524,7 @@
                 </span>
 
                 <p class="music-note">
-                    play the song para damang-dama 🖤
+                    play the song para damang-dama :)
                 </p>
 
             </div>
@@ -571,7 +571,7 @@
                 </p>
 
                 <p>
-                    Basta, as long as nahinga pa ako, I always got ur back, bruh (sana pautangin mo pa rin me pag pumaldo ka na sa buhay). RGE 2027 TOPNOTCHERS na ites. Love u, pinsan ko (virtual hugs and kisses). See u soonest!
+                    Basta, as long as nahinga pa ako, I always got ur back, bruh (sana pautangin mo pa rin me pag pumaldo ka na sa buhay). Pahuway na muna, RGE 2027 TOPNOTCHERS na ites. Love u, pinsan ko (virtual hugs and kisses). See u soonest!
                 </p>
 
                 <p>
