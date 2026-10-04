@@ -468,7 +468,7 @@
             </h1>
 
             <p>
-                i know u know what i mean
+                naaalala mo pa man siguro, 'no?
             </p>
 
             <p class="clue">
