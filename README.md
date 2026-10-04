@@ -1,11 +1,10 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>For My Fave Hooman, Micah 🖤</title>
+    <title>For My Fave Hooman 🖤</title>
 
     <style>
         * {
@@ -20,138 +19,137 @@
             margin: 0;
             min-height: 100vh;
             font-family: Georgia, "Times New Roman", serif;
-            background:
-                radial-gradient(
-                    circle at top,
-                    #1d1d1d 0%,
-                    #090909 45%,
-                    #000000 100%
-                );
+            background: linear-gradient(to bottom, #181818, #000000);
             color: #eeeeee;
-            overflow-x: hidden;
         }
 
-        /* =========================
-           FLOATING HEARTS
-        ========================= */
+        /* FLOATING HEARTS */
 
         .heart {
             position: fixed;
-            bottom: -50px;
-            font-size: 20px;
-            color: #777777;
-            opacity: 0.45;
-            animation: floatUp linear infinite;
+            bottom: -30px;
+            color: #777;
+            font-size: 22px;
+            opacity: 0.4;
+            animation: floatUp 10s linear infinite;
             pointer-events: none;
             z-index: 0;
         }
 
+        .heart:nth-child(1) {
+            left: 5%;
+            animation-duration: 8s;
+        }
+
+        .heart:nth-child(2) {
+            left: 20%;
+            animation-duration: 11s;
+            animation-delay: 2s;
+        }
+
+        .heart:nth-child(3) {
+            left: 40%;
+            animation-duration: 9s;
+            animation-delay: 1s;
+        }
+
+        .heart:nth-child(4) {
+            left: 60%;
+            animation-duration: 12s;
+            animation-delay: 3s;
+        }
+
+        .heart:nth-child(5) {
+            left: 80%;
+            animation-duration: 10s;
+            animation-delay: 1s;
+        }
+
         @keyframes floatUp {
             0% {
-                transform: translateY(0) rotate(0deg);
+                transform: translateY(0);
                 opacity: 0;
             }
 
             10% {
-                opacity: 0.45;
+                opacity: 0.4;
             }
 
             100% {
-                transform: translateY(-110vh) rotate(360deg);
+                transform: translateY(-110vh);
                 opacity: 0;
             }
         }
 
-        /* =========================
-           MAIN CONTAINER
-        ========================= */
+        /* MAIN */
 
         .container {
             position: relative;
             z-index: 1;
-            width: min(92%, 850px);
-            margin: 40px auto;
+            width: 92%;
+            max-width: 850px;
+            margin: auto;
         }
 
-        /* =========================
-           OPENING SCREEN
-        ========================= */
+        /* OPENING */
 
-        .opening {
-            min-height: 90vh;
+        #openingScreen {
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
         }
 
-        .opening-card {
-            background: rgba(20, 20, 20, 0.92);
-            padding: 45px 30px;
+        .card {
+            background: rgba(20, 20, 20, 0.95);
+            border: 1px solid #333;
             border-radius: 25px;
-            border: 1px solid #333333;
-            box-shadow:
-                0 20px 60px rgba(0, 0, 0, 0.8);
-            backdrop-filter: blur(10px);
-            animation: fadeIn 1.5s ease;
+            padding: 40px 25px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
         }
 
-        .opening-card h1 {
-            font-size: clamp(28px, 6vw, 48px);
-            margin-bottom: 15px;
-            color: #ffffff;
-            letter-spacing: 1px;
+        h1 {
+            color: white;
         }
 
-        .opening-card p {
+        .opening-title {
+            font-size: clamp(30px, 7vw, 50px);
+            margin-bottom: 25px;
+        }
+
+        .opening-text {
             font-size: 18px;
-            line-height: 1.7;
-            color: #d0d0d0;
+            line-height: 1.8;
+            color: #ddd;
         }
-
-        .small-note {
-            font-size: 14px !important;
-            opacity: 0.55;
-            margin-top: 25px;
-        }
-
-        /* =========================
-           BUTTONS
-        ========================= */
 
         button {
-            border: none;
             cursor: pointer;
+            border: none;
             font-family: inherit;
         }
 
-        .open-button {
-            margin-top: 25px;
-            padding: 15px 30px;
+        .main-button {
+            margin-top: 20px;
+            padding: 15px 28px;
             border-radius: 50px;
-            background: #eeeeee;
-            color: #111111;
-            font-size: 17px;
+            background: white;
+            color: black;
+            font-size: 16px;
             font-weight: bold;
-            box-shadow:
-                0 8px 25px rgba(255, 255, 255, 0.08);
-            transition: 0.3s;
         }
 
-        .open-button:hover {
-            transform: translateY(-3px);
-            background: #ffffff;
-            box-shadow:
-                0 10px 30px rgba(255, 255, 255, 0.15);
+        .main-button:hover {
+            transform: scale(1.03);
         }
 
-        /* =========================
-           PASSWORD SCREEN
-        ========================= */
+        /* PASSWORD */
 
         #passwordScreen {
             display: none;
-            min-height: 90vh;
+            min-height: 100vh;
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -159,164 +157,124 @@
 
         .password-card {
             background: rgba(20, 20, 20, 0.95);
-            padding: 40px 30px;
+            border: 1px solid #333;
             border-radius: 25px;
-            border: 1px solid #333333;
-            box-shadow:
-                0 20px 60px rgba(0, 0, 0, 0.8);
-            width: min(100%, 450px);
-        }
-
-        .password-card h2 {
-            color: #ffffff;
-            margin-top: 0;
+            padding: 40px 25px;
+            width: 100%;
+            max-width: 450px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
         }
 
         .password-card p {
-            color: #cfcfcf;
+            color: #ccc;
             line-height: 1.7;
         }
 
         .clue {
-            font-size: 14px !important;
-            color: #888888 !important;
+            color: #888 !important;
+            font-size: 14px;
             margin-top: 20px;
         }
 
-        .password-input {
+        #passwordInput {
             width: 100%;
-            padding: 14px 16px;
-            margin-top: 20px;
-            border: 1px solid #444444;
-            border-radius: 12px;
-            font-size: 16px;
-            outline: none;
-            text-align: center;
-            background: #111111;
-            color: #ffffff;
-        }
-
-        .password-input::placeholder {
-            color: #777777;
-        }
-
-        .password-input:focus {
-            border-color: #888888;
-        }
-
-        .unlock-button {
+            padding: 14px;
             margin-top: 15px;
-            padding: 13px 28px;
-            border-radius: 30px;
-            background: #eeeeee;
-            color: #111111;
-            font-size: 16px;
-            font-weight: bold;
-            transition: 0.3s;
+            border-radius: 12px;
+            border: 1px solid #444;
+            background: #111;
+            color: white;
+            text-align: center;
+            font-size: 17px;
+            outline: none;
         }
 
-        .unlock-button:hover {
-            background: #ffffff;
-            transform: translateY(-2px);
+        #passwordInput:focus {
+            border-color: #888;
         }
 
-        .error {
-            color: #999999 !important;
-            margin-top: 12px;
+        #errorMessage {
             display: none;
+            color: #aaa !important;
         }
 
-        /* =========================
-           LETTER
-        ========================= */
+        /* LETTER */
 
         #letterSection {
             display: none;
-            animation: fadeIn 1.5s ease;
+            padding: 30px 0 60px;
         }
-
-        .letter-card {
-            background: rgba(15, 15, 15, 0.96);
-            padding: clamp(25px, 5vw, 55px);
-            border-radius: 25px;
-            border: 1px solid #2d2d2d;
-            box-shadow:
-                0 20px 70px rgba(0, 0, 0, 0.8);
-            margin: 40px auto;
-        }
-
-        .letter-title {
-            text-align: center;
-            color: #ffffff;
-            font-size: clamp(25px, 5vw, 38px);
-            margin-bottom: 35px;
-            letter-spacing: 1px;
-        }
-
-        .letter {
-            font-size: 17px;
-            line-height: 1.9;
-            color: #dddddd;
-        }
-
-        .letter p {
-            margin-bottom: 24px;
-        }
-
-        .closing {
-            text-align: center;
-            font-size: 20px;
-            color: #ffffff;
-            margin-top: 35px;
-        }
-
-        /* =========================
-           MUSIC PLAYER
-        ========================= */
 
         .music-player {
             position: sticky;
             top: 15px;
             z-index: 10;
-            background: rgba(20, 20, 20, 0.96);
-            padding: 12px 18px;
-            border-radius: 50px;
-            border: 1px solid #333333;
-            box-shadow:
-                0 8px 30px rgba(0, 0, 0, 0.6);
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 10px;
+            flex-wrap: wrap;
             margin-bottom: 20px;
+            padding: 12px;
+            background: rgba(20, 20, 20, 0.95);
+            border: 1px solid #333;
+            border-radius: 50px;
         }
 
         .music-player button {
-            background: #eeeeee;
-            color: #111111;
-            padding: 9px 17px;
+            padding: 9px 18px;
             border-radius: 30px;
+            background: white;
+            color: black;
             font-weight: bold;
-            transition: 0.3s;
         }
 
-        .music-player button:hover {
-            background: #ffffff;
-        }
-
-        .music-player span {
+        #musicStatus {
             font-size: 14px;
-            color: #bdbdbd;
+            color: #aaa;
         }
 
-        /* =========================
-           FADE ANIMATION
-        ========================= */
+        .letter-card {
+            background: rgba(15, 15, 15, 0.97);
+            border: 1px solid #2d2d2d;
+            border-radius: 25px;
+            padding: clamp(25px, 5vw, 55px);
+            box-shadow: 0 20px 70px rgba(0, 0, 0, 0.8);
+        }
+
+        .letter-title {
+            text-align: center;
+            font-size: clamp(28px, 6vw, 40px);
+            margin-bottom: 40px;
+        }
+
+        .letter {
+            color: #ddd;
+            font-size: 17px;
+            line-height: 1.9;
+        }
+
+        .letter p {
+            margin-bottom: 25px;
+        }
+
+        .closing {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            margin-top: 40px;
+        }
+
+        /* FADE */
+
+        .fade {
+            animation: fadeIn 1s ease;
+        }
 
         @keyframes fadeIn {
             from {
                 opacity: 0;
-                transform: translateY(20px);
+                transform: translateY(15px);
             }
 
             to {
@@ -325,178 +283,87 @@
             }
         }
 
-        /* =========================
-           MOBILE
-        ========================= */
+        /* MOBILE */
 
         @media (max-width: 600px) {
-
-            .container {
-                width: 94%;
-            }
-
-            .opening-card {
-                padding: 35px 22px;
-            }
-
-            .letter {
-                font-size: 16px;
-                line-height: 1.8;
+            .card {
+                padding: 35px 20px;
             }
 
             .letter-card {
                 padding: 25px 20px;
             }
 
-            .music-player {
-                flex-wrap: wrap;
+            .letter {
+                font-size: 16px;
+                line-height: 1.8;
             }
         }
-
     </style>
 </head>
 
-
 <body>
 
-    <!-- =========================
-         FLOATING HEARTS
-    ========================= -->
+    <!-- FLOATING HEARTS -->
 
-    <div
-        class="heart"
-        style="left:5%; animation-duration:8s;"
-    >
-        ♡
-    </div>
-
-    <div
-        class="heart"
-        style="
-            left:15%;
-            animation-duration:11s;
-            animation-delay:2s;
-        "
-    >
-        ♥
-    </div>
-
-    <div
-        class="heart"
-        style="
-            left:28%;
-            animation-duration:9s;
-            animation-delay:1s;
-        "
-    >
-        ♡
-    </div>
-
-    <div
-        class="heart"
-        style="
-            left:42%;
-            animation-duration:12s;
-            animation-delay:3s;
-        "
-    >
-        ♥
-    </div>
-
-    <div
-        class="heart"
-        style="
-            left:58%;
-            animation-duration:10s;
-            animation-delay:1s;
-        "
-    >
-        ♡
-    </div>
-
-    <div
-        class="heart"
-        style="
-            left:72%;
-            animation-duration:13s;
-        "
-    >
-        ♥
-    </div>
-
-    <div
-        class="heart"
-        style="
-            left:88%;
-            animation-duration:9s;
-            animation-delay:2s;
-        "
-    >
-        ♡
-    </div>
+    <div class="heart">♡</div>
+    <div class="heart">♥</div>
+    <div class="heart">♡</div>
+    <div class="heart">♥</div>
+    <div class="heart">♡</div>
 
 
     <div class="container">
 
+        <!-- ========================= -->
+        <!-- OPENING SCREEN -->
+        <!-- ========================= -->
 
-        <!-- =========================
-             OPENING SCREEN
-        ========================= -->
+        <section id="openingScreen">
 
-        <section
-            class="opening"
-            id="openingScreen"
-        >
+            <div class="card fade">
 
-            <div class="opening-card">
-
-                <h1>
+                <h1 class="opening-title">
                     For My Fave Hooman 🖤
                 </h1>
 
-                <p>
+                <p class="opening-text">
                     My all-time fave i-ragebait,<br>
                     my taga-salo ng random thoughts ko,<br>
                     my pinsan by heart,<br>
                     and shempre, my Engr. Micah Jezra.
                 </p>
 
-                <p>
+                <p class="opening-text">
                     I made something for you.
                 </p>
 
                 <button
-                    class="open-button"
+                    class="main-button"
                     onclick="showPassword()"
                 >
                     Open this for me 🖤
                 </button>
-
-                <p class="small-note">
-                    This little message is meant especially for you.
-                </p>
 
             </div>
 
         </section>
 
 
-        <!-- =========================
-             PASSWORD SCREEN
-        ========================= -->
+        <!-- ========================= -->
+        <!-- PASSWORD SCREEN -->
+        <!-- ========================= -->
 
-        <section
-            id="passwordScreen"
-        >
+        <section id="passwordScreen">
 
-            <div class="password-card">
+            <div class="password-card fade">
 
-                <h2>
+                <h1>
                     🔐 A little secret...
-                </h2>
+                </h1>
 
                 <p>
-                    Before you read this,<br>
+                    Before you read this,
                     you need to know the password. 🖤
                 </p>
 
@@ -507,27 +374,18 @@
                 <input
                     type="password"
                     id="passwordInput"
-                    class="password-input"
                     placeholder="Enter the password"
-                    onkeydown="
-                        if(event.key === 'Enter')
-                        checkPassword()
-                    "
+                    onkeydown="handleEnter(event)"
                 >
 
-                <br>
-
                 <button
-                    class="unlock-button"
+                    class="main-button"
                     onclick="checkPassword()"
                 >
                     Unlock 🖤
                 </button>
 
-                <p
-                    id="errorMessage"
-                    class="error"
-                >
+                <p id="errorMessage">
                     Nope. Try again, boi. 😂
                 </p>
 
@@ -536,22 +394,19 @@
         </section>
 
 
-        <!-- =========================
-             LETTER
-        ========================= -->
+        <!-- ========================= -->
+        <!-- LETTER -->
+        <!-- ========================= -->
 
-        <section
-            id="letterSection"
-        >
+        <section id="letterSection">
 
-
-            <!-- MUSIC PLAYER -->
+            <!-- MUSIC -->
 
             <div class="music-player">
 
                 <button
-                    onclick="toggleMusic()"
                     id="musicButton"
+                    onclick="toggleMusic()"
                 >
                     ▶ Play Paalala
                 </button>
@@ -563,14 +418,13 @@
             </div>
 
 
-            <!-- LETTER CARD -->
+            <!-- LETTER -->
 
-            <div class="letter-card">
+            <div class="letter-card fade">
 
                 <h1 class="letter-title">
                     To My Fave Hooman 🖤
                 </h1>
-
 
                 <div class="letter">
 
@@ -635,177 +489,127 @@
     </div>
 
 
-    <!-- =========================
-         MUSIC
-    ========================= -->
-
-    <!--
-        Put your legally obtained audio file
-        in the SAME FOLDER as this HTML file.
-
-        File name:
-
-        paalala.mp3
-    -->
+    <!-- ========================= -->
+    <!-- MUSIC FILE -->
+    <!-- ========================= -->
 
     <audio
         id="backgroundMusic"
         loop
+        preload="auto"
     >
-
         <source
             src="paalala.mp3"
             type="audio/mpeg"
         >
-
     </audio>
 
 
     <script>
 
-        /* =========================
-           PASSWORD
-        ========================= */
+        /* PASSWORD */
 
         const correctPassword = "072326";
 
 
-        /* =========================
-           SHOW PASSWORD SCREEN
-        ========================= */
+        /* SHOW PASSWORD SCREEN */
 
         function showPassword() {
 
-            document.getElementById(
-                "openingScreen"
-            ).style.display = "none";
+            document.getElementById("openingScreen").style.display = "none";
 
-            document.getElementById(
-                "passwordScreen"
-            ).style.display = "flex";
+            document.getElementById("passwordScreen").style.display = "flex";
 
         }
 
 
-        /* =========================
-           CHECK PASSWORD
-        ========================= */
+        /* ENTER KEY */
+
+        function handleEnter(event) {
+
+            if (event.key === "Enter") {
+
+                checkPassword();
+
+            }
+
+        }
+
+
+        /* CHECK PASSWORD */
 
         function checkPassword() {
 
-            const enteredPassword =
-                document.getElementById(
-                    "passwordInput"
-                ).value;
+            const input =
+                document.getElementById("passwordInput");
 
-            const errorMessage =
-                document.getElementById(
-                    "errorMessage"
-                );
+            const error =
+                document.getElementById("errorMessage");
 
+            if (input.value === correctPassword) {
 
-            if (
-                enteredPassword ===
-                correctPassword
-            ) {
+                document.getElementById("passwordScreen").style.display = "none";
 
-                document.getElementById(
-                    "passwordScreen"
-                ).style.display = "none";
+                document.getElementById("letterSection").style.display = "block";
 
-                document.getElementById(
-                    "letterSection"
-                ).style.display = "block";
-
-                startMusic();
-
-                window.scrollTo({
-                    top: 0,
+                document.getElementById("letterSection").scrollIntoView({
                     behavior: "smooth"
                 });
 
-            }
+            } else {
 
-            else {
+                error.style.display = "block";
 
-                errorMessage.style.display =
-                    "block";
+                input.value = "";
 
-                document.getElementById(
-                    "passwordInput"
-                ).value = "";
+                input.focus();
 
             }
 
         }
 
 
-        /* =========================
-           MUSIC
-        ========================= */
+        /* MUSIC */
 
         const music =
-            document.getElementById(
-                "backgroundMusic"
-            );
+            document.getElementById("backgroundMusic");
 
         const musicButton =
-            document.getElementById(
-                "musicButton"
-            );
+            document.getElementById("musicButton");
 
         const musicStatus =
-            document.getElementById(
-                "musicStatus"
-            );
-
-
-        function startMusic() {
-
-            music.play()
-
-                .then(() => {
-
-                    musicButton.innerHTML =
-                        "⏸ Pause Paalala";
-
-                    musicStatus.innerHTML =
-                        "Now playing: Paalala by twosday 🎵";
-
-                })
-
-                .catch(() => {
-
-                    musicStatus.innerHTML =
-                        "Tap Play Paalala to start 🎵";
-
-                });
-
-        }
+            document.getElementById("musicStatus");
 
 
         function toggleMusic() {
 
             if (music.paused) {
 
-                music.play();
+                music.play()
+                    .then(function() {
 
-                musicButton.innerHTML =
-                    "⏸ Pause Paalala";
+                        musicButton.textContent =
+                            "⏸ Pause Paalala";
 
-                musicStatus.innerHTML =
-                    "Now playing: Paalala by twosday 🎵";
+                        musicStatus.textContent =
+                            "Now playing: Paalala by twosday 🎵";
 
-            }
+                    })
+                    .catch(function() {
 
-            else {
+                        musicStatus.textContent =
+                            "Make sure paalala.mp3 is in the same folder.";
+
+                    });
+
+            } else {
 
                 music.pause();
 
-                musicButton.innerHTML =
+                musicButton.textContent =
                     "▶ Play Paalala";
 
-                musicStatus.innerHTML =
+                musicStatus.textContent =
                     "Music paused";
 
             }
@@ -816,4 +620,3 @@
 
 </body>
 </html>
-```
