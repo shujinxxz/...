@@ -583,7 +583,7 @@
                 </p>
 
                 <p>
-                    P.P.S. I missed ur sinigang.
+                    P.P.S. Tara Greenwich.
                 </p>
 
                 <p class="signature">
