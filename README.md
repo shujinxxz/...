@@ -539,7 +539,7 @@
                 </p>
 
                 <p>
-                    I'm not good with words, pero look oh, I wrote something for u kasi ikaw na baga yan hahahaha (di ko rin 'to branding at personality). Well, kidding aside, I just want to let u know how proud am I to u. Lakas mo, boi. Isipin mo, u took that exam despite everything u've been through: the efforts, sacrifices, the doubts(?), even ur silent cries. Pero ang brave mo, di ka sumuko, and that's one thing I'm very proud of u. We may not get the result that we wanted, but sa part pa lang na di ka sumuko, panalo ka na, boi.
+                    I'm not good with words, pero look oh, I wrote something for u kasi ikaw na baga yan hahahaha (di ko rin 'to branding at personality). Well, kidding aside, I just want to let u know how proud am I to u. Lakas mo, boi. Isipin mo, u took that exam despite everything u've been through: the efforts, sacrifices, the doubts(?), even ur silent cries. Pero ang brave mo, di ka sumuko, and that's one thing I'm very proud of u. We may not get the result that we wanted, but sa part pa lang na di ka sumuko, panalo ka na, boi. Congrats, Engineer! <3
                 </p>
 
                 <p>
