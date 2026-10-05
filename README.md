@@ -587,7 +587,7 @@
                 </p>
 
                 <p class="signature">
-                    engr. bogs :)
+                    <b>engr. bogs :)</b>
                 </p>
 
             </div>
