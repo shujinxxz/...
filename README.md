@@ -486,7 +486,7 @@
                 class="main-button"
                 onclick="checkPassword()"
             >
-                Unlock 
+                ge 
             </button>
 
             <p id="errorMessage">
