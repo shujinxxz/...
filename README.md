@@ -571,7 +571,7 @@
                 </p>
 
                 <p>
-                    Basta, as long as nahinga pa ako, I always got ur back, bruh. I'm here lang lagi, kaya don't hesitate to call/message me kahit saan (lalo na if need mo taga-sira ng araw mo hahahahhaha). Sana pautangin mo pa rin me pag pumaldo ka na sa bohai hshshshshs (fr fr istg).
+                    Basta, as long as nahinga pa ako, I always got ur back, bruh. I'm here lang lagi, kaya don't hesitate to call/message me kahit saan (lalo na if need mo taga-sira ng araw mo hahahahhaha). On a serious note (wow serious note), if u need me man nanggad, just call/message me kasi I'll do everything man to help u. Kung need ko akyatin mga bundok or tumawid pa ako sa dagat (ay hanep, di imposible kay baka nasa isla ka), gagawin ko just to help u (oh panis hshshshs). Sana pautangin mo pa rin me pag pumaldo ka na sa bohai hshshshshs (fr fr istg).
                 </p>
 
                 <p>
@@ -579,7 +579,7 @@
                 </p>
                 
                 <p>
-                    P.S. Muya mo champorado, ner?
+                    P.S. Muya mo champorado, ner? (random midnight anes)
                 </p>
 
                 <p>
