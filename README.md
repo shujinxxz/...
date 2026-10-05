@@ -559,7 +559,7 @@
                 </p>
 
                 <p>
-                    U know what? I always thank God kasi I got the chance to meet a person like u in this lifetime. If mabuhay man tayo ulit sa next life natin, I hope our paths meet again (edi sorry kung ayaw mo na, basta ako gusto ko 🤪), and sana the universe is kinder to us na. Sana sa'tin naman siya pumabor. So, thank u for existing. Dami kong natutunan sayo.
+                    U know what? I always thank God kasi I got the chance to meet a person like u in this lifetime. And if mabuhay man tayo ulit sa next life natin, I hope our paths cross again (edi sorry kung ayaw mo na, basta ako gusto ko 🤪), and sana the universe is kinder to us na. Sana sa'tin naman siya pumabor. So, thank u for existing. Dami kong natutunan sayo.
                 </p>
 
                 <p>
