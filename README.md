@@ -535,7 +535,7 @@
             <div class="letter-card fade">
 
                 <p>
-                    To my fave human, my all-time fave i-ragebait, my taga-salo ng random thoughts ko, my pinsan by heart, and shempre, my Engr. Micah Jezra,
+                    <i>To my fave human, my all-time fave i-ragebait, my taga-salo ng random thoughts ko, my pinsan by heart, and shempre, my Engr. Micah Jezra,</i>
                 </p>
 
                 <p>
