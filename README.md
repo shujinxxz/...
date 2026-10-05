@@ -551,7 +551,7 @@
                 </p>
 
                 <p>
-                    Ang gaan din ng feeling ko saimo. Like, I don't need magpanggap sayo kasi I'm comfortable na makita mo vulnerable side ko (siguro bff kita sa past life hahahahaha eme).Kainis nga kasi, bat ba u know me so well? Like, bat gets mo ako sa lahat. Sabagay, senyasan lang nga pala, gets na agad natin each other hahahaha.
+                    Ang gaan din ng feeling ko saimo. Like, I don't need magpanggap sayo kasi I'm comfortable na makita mo vulnerable side ko (siguro bff kita sa past life hahahahaha eme).Kainis nga kasi, bat ba u know me so well? Like, bat gets mo ako sa lahat. Sabagay, arog baga kita kaini 🤞🏻, senyasan lang nga pala, gets na agad natin each other kasi connected baga kita hahahaha.
                 </p>
 
                 <p>
@@ -571,9 +571,13 @@
                 </p>
 
                 <p>
-                    Basta, as long as nahinga pa ako, I always got ur back, bruh (don't hesitate to message me kahit saan, and sana pautangin mo pa rin me pag pumaldo ka na sa bohai hshshshshs). Pahuway na muna, RGE 2027 TOPNOTCHERS na ites. Love u, pinsan ko (sending u virtual hugs and kisses). See u soonest!
+                    Basta, as long as nahinga pa ako, I always got ur back, bruh. I'm here lang lagi, kaya don't hesitate to call/message me kahit saan (lalo na if need mo taga-sira ng araw mo hahahahhaha). Sana pautangin mo pa rin me pag pumaldo ka na sa bohai hshshshshs (fr fr istg).
                 </p>
 
+                <p>
+                    Pahuway na muna muna, ner. RGE 2027 TOPNOTCHER na ites. Love u, pinsan ko (sending u virtual hugs and kisses). See u soonest!
+                </p>
+                
                 <p>
                     P.S. Muya mo champorado, ner?
                 </p>
