@@ -551,7 +551,7 @@
                 </p>
 
                 <p>
-                    Kainis nga kasi, bat ba u know me so well? Like, bat gets mo ako sa lahat. Sabagay, senyasan lang nga pala, gets na agad natin each other hahahaha.
+                    Ang gaan din ng feeling ko saimo. Like, I don't need magpanggap sayo kasi I'm comfortable na makita mo vulnerable side ko (siguro bff kita sa past life hahahahaha eme).Kainis nga kasi, bat ba u know me so well? Like, bat gets mo ako sa lahat. Sabagay, senyasan lang nga pala, gets na agad natin each other hahahaha.
                 </p>
 
                 <p>
@@ -563,7 +563,7 @@
                 </p>
 
                 <p>
-                    Thank u for patiently teaching me sa mga topics na hindi ko magets, kahit wala ka namang napapala pag ikaw na magpapaturo sakin kasi hindi ako marunong mag-explain. Minsan ka na lang nga magpaturo sakin, tapos I hurt u pa :(. Sorry, I didn't mean to make u feel that way, pero wala naman na magagawa ang sorry ko kasi nangyare na. Pero pls know na it wasn’t my intention to hurt u, and sa lahat na kasalanan ko sayo, gusto ko mag-ask ng forgiveness kasi dai mo deserve makulugan dahil sa mga kalokohan ko :)
+                    Thank u for patiently teaching me sa mga topics na hindi ko magets, kahit wala ka namang napapala pag ikaw na magpapaturo sakin kasi hindi ako marunong mag-explain. Minsan ka na lang nga magpaturo sakin, tapos I hurt u pa :(. Sorry, I didn't mean to make u feel that way, pero wala naman na magagawa ang sorry ko kasi nangyare na. Pero pls know na it wasn’t my intention to hurt u, and sa lahat na kasalanan ko sayo, gusto ko mag-ask ng forgiveness kasi dai mo deserve makulugan dahil sa mga kalokohan ko :) I won't make u cry na kasi baka isumbong mo na naman ako kay Lord.
                 </p>
 
                 <p>
