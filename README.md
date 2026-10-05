@@ -575,7 +575,7 @@
                 </p>
 
                 <p>
-                    Pahuway na muna muna, ner. Mabawi kita next year ah. Kuruahon ta na ang lisensyang an ta nuarin pa an kuruahon. RGE 2027 TOPNOTCHER na ites ta kita na baga ini. Love u, pinsan ko (sending u virtual hugs and kisses). See u soonest!
+                    Pahuway na muna muna, ner. Mabawi kita next year ah. Kuruahon ta na ang lisensyang an ta nuarin pa an kuruahon. RGE 2027 TOPNOTCHERS na ites ta kita na baga ini. Love u, pinsan ko (sending u virtual hugs and kisses). See u soonest!
                 </p>
                 
                 <p>
