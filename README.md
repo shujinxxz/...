@@ -534,9 +534,9 @@
 
             <div class="letter-card fade">
 
-                <p>
-                    <i><b>To my fave human, my all-time fave i-ragebait, my taga-salo ng random thoughts ko, my pinsan by heart, and shempre, my Engr. Micah Jezra,</b></i>
-                </p>
+                <h2 style="font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-weight: bold; font-size: 1rem; margin: 0 0 30px 0;">
+    To my fave human, my all-time fave i-ragebait, my taga-salo ng random thoughts ko, my pinsan by heart, and shempre, my Engr. Micah Jezra,
+                </h2>
 
                 <p>
                     I'm not good with words, pero look oh, I wrote something for u kasi ikaw na baga yan hahahaha (di ko rin 'to branding at personality). Well, kidding aside, I just want to let u know how proud am I to u. Lakas mo, boi. Isipin mo, u took that exam despite everything u've been through: the efforts, sacrifices, the doubts(?), even ur silent cries. Pero ang brave mo, di ka sumuko, and that's one thing I'm very proud of u. We may not get the result that we wanted, but sa part pa lang na di ka sumuko, panalo ka na, boi. Congrats, Engineer! <3
