@@ -436,7 +436,7 @@
         <div class="card fade">
 
             <h1 class="opening-title">
-                uy engineer yohoo!
+                yo engineer yohoo!
             </h1>
 
             <p class="opening-text">
